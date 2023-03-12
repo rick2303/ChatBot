@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Bienvenido, soy Feel Bot!</h1>
+
+    <!– Textarea –>
+    <div class="form-floating">
+      <textarea disabled id="textarea1" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 700px; width:328px; margin-bottom:10px;margin-top: 10px;margin-left: 10px;"></textarea>
+      <label for="floatingTextarea2" style="padding-left: 5px;"></label>
+
+      <!– Input y boton para enviar el texto de la conversacion –>
+      <div class="input-group mb-3" style="margin-left: 10px;margin-top: 10px; width: 328px;">
+        <input  id="texto1" type="text" class="form-control btn-outline-secondary" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-regular fa-paper-plane"></i></button>
+      </div>
+    </div>
+    
+   
+    <!– scripsts de fontawesome,bootstrap y el controlador –>
     <link rel="stylesheet" href="js/controlador.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1dab82ee8f.js" crossorigin="anonymous"></script>
+
   </body>
 </html>

@@ -1,0 +1,14 @@
+#textarea1{
+    background-color: #444654;
+    resize: none;
+}
+.form-floating,html,body{
+    background-color: #343541;
+    outline:none !important;
+    border: none !important;
+}
+
+#texto1{
+    background-color: #40414F;
+    color: #ffff;
+}
